@@ -1,0 +1,11 @@
+section {
+  height: 500px;
+  background-image: url(bg_bggenerator_com.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

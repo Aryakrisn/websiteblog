@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Titan Computers Blog page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  </head>
+  <body>
+    <header>
+      <script
+        src="https://kit.fontawesome.com/b1d54c463a.js"
+        crossorigin="anonymous"
+      ></script>
+      <div class="main-header">
+        <h3 class="header-info">
+          <a href="index.html">TITAN Computers </a>
+        </h3>
+
+        <!-- nav  -->
+        <nav>
+          <!-- tambahin navbar yang berhubung dengan home dan footer -->
+
+          <a href="#Project">Project</a>
+          <br />
+          <!-- <a href="Account">Akun</a> -->
+          <br />
+          <a href="contact.html" style="margin-left: 10px">Contact Us</a>
+          <!-- <a href="#price"> Price -->
+          <br />
+
+          <a href="contact.html" target="blank" method="GET"
+            ><i class="Contact"></i
+          ></a>
+        </nav>
+      </div>
+    </header>
+    <section id="jumbotron">
+      <div class="jumbotron">
+        <h1 class="jumbotron-title">Dapatkan info PC mu Disini!</h1>
+        <div class="header-flex">
+          <div>
+            <h2 class="jumbotron-text">
+              Bingung mau beli PC ? <br />
+              Lihat Katalog kami
+              <span style="color: #f4a261">PC</span> Kami!
+            </h2>
+            <div class="mini-text-flex">
+              <p class="mini-text">Katalog</p>
+              <button id="icon-up">
+                <i class="far fa-hand-point-up"></i>
+              </button>
+              <button id="icon-down" class="icon-down">
+                <i class="far fa-hand-point-down"></i>
+              </button>
+            </div>
+          </div>
+
+          <div>
+            <img
+              class="jumbotron-img"
+              src="assets/img-header.png"
+              alt=""
+              width="auto"
+              height="300"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <main>
+      <button id="icon-up" onclick="changeText()">
+        <i class="far fa-hand-point-up"></i>
+      </button>
+    </main>
+    <section id="skill"></section>
+    <section id="activity"></section>
+    <section id="about"></section>
+    <div class="section-container">
+      <h2 class="section-title">Katalog PC Titan Computers</h2>
+      <!-- <p class="section-subtitle">
+        Katalog PC TITAN
+      </p> -->
+      <div class="skills-flex">
+        <div class="skill-item">
+          <img src="assets/pc 3.jpeg" alt="Scratch" />
+          <h4>TitanXtreme</h4>
+          <p>IDR 20.000.000</p>
+        </div>
+        <div class="skill-item">
+          <img src="assets/pc 5.jpeg" alt="Phaser" />
+          <h4>TitanMaster</h4>
+          <p>IDR 10.000.000</p>
+        </div>
+        <div class="skill-item">
+          <img src="assets/pc 4.jpeg" alt="HTML" />
+          <h4>TitanElite</h4>
+          <p>IDR 9.000.000</p>
+        </div>
+      </div>
+    </div>
+    <article id="my-project">
+      <h3 class="article-title">Our incoming PC</h3>
+      <div class="project-container">
+        <div class="project">
+          <img  data-aos="fade-up" data-aos-duration="2000"  
+            src="assets/h107.jpeg"
+            alt=""
+            width="300px"
+            height="210px"
+          />
+          <h4 class="project-title">H107 
+          <p class="project-description">High End Gaming PC</p>
+        </div data-aos="fade-up">
+        <div class="project">
+          <img data-aos="fade-up" data-aos-duration="2000"  
+            src="assets/wa600.jpeg"
+            alt="wa600"
+            width="300px"
+            height="210px"
+          />
+          <h4 class="project-title">WA600</h4>
+          <p class="project-description">Workstation PC</p>
+        </div>
+      </div>
+    </article>
+
+    <div class="section-container">
+      <h2 class="section-title">About Us</h2>
+      <p class="section-subtitle">Our Company</p>
+      <div class="about-image">
+        <img
+          class="blob-image"
+          src="assets/image.png"
+          alt="Blob Image"
+        />
+        <img
+          class="blogger-image"
+          src="assets/download_logo_titan_c_baru-removebg-preview.png"
+          alt="Profile Picture"
+        />
+      </div>
+      <div class="about-description">
+        <p>
+          We Are Titan Computers, a PreBuild PC Company in Denpasar. At Titan, we
+          specialize in building high-performance custom PCs tailored to gamers,
+          creators, and professionals. Our expert team is dedicated to crafting
+          powerful, reliable machines using premium components to meet your
+          specific needs.
+        </p>
+        <!-- <h4>TITAN</h4> -->
+      </div>
+    </div>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
